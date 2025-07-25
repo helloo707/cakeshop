@@ -27,20 +27,6 @@ A full-stack Cake Shop website built with **Node.js**, **Express.js**, **MongoDB
 | HTML/CSS     | Static UI                    |
 | Mongoose     | MongoDB ODM                  |
 
----
-
-## 📂 Folder Structure
-
-cakeshop/
-├── public/ # Static files (CSS, images)
-├── views/ # EJS templates (if used)
-├── routes/ # Express route handlers
-├── models/ # MongoDB Mongoose schemas
-├── app.js # Main entry point
-├── .env # Environment variables
-├── .gitignore # Ignored files for Git
-└── package.json # Project metadata
-
 
 ---
 
