@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    text-align: start;
+}
+:root{
+    --main--bg: #fac8c89e;
+    --main-color:rgb(232, 82, 22);
+}
+.companylogofont{
+    font-family: 'Dancing Script', cursive !important;
+}
+.hero-header {
+    background: url(/img/bannerimgg.jpg) center no-repeat !important;
+    background-size: cover !important;
+}
+body{
+    height: 100vh !important;
+    width: 100vw !important;
+    background-image: url(/img/pxfuel.jpg) !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    position: absolute;
+}
+.abovenav{
+    margin: 0px 15vw;
+    --bs-gutter-x: 10.5rem !important;
+    background-color: rgba(250, 235, 215, 0.359);
+    display: none;
+}
+#heading{
+    display:flex;
+    justify-content: center;
+    margin: 10px 190px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.container{
+    justify-content: center left !important;
+    align-items: start;
+}
+nav{
+    background-color: var(--main--bg);
+}
+.bgmain{
+    background-color:rgba(250, 235, 215, 0.359); 
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    display: flex;
+    position:sticky;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 0rem !important;
+}
+.hero-header{
+    z-index: 1;
+    position:relative;
+}
+main{
+    z-index: 1;
+    position: relative;
+}
+li{
+    margin: 5px 50px;
+    padding: 10px 15px;
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: black !important;
+}
+.btn{
+    background-color:brown!important;
+    border-color: rgb(0, 0, 0) !important;
+    color: aliceblue !important;
+}
+.btn:hover{
+    background-color: rgb(117, 74, 8) !important;
+    border-color: brown !important;
+    box-shadow: 5px burlywood;
+}
+.textt{
+    color: rgb(199, 95, 31) !important;
+}
+.font-bdy{
+    font-family: 'Playfair Display', serif;
+}
+.text-brown{
+    color: brown;
+}
+.aboutus{
+    font-family:  'Pacifico', cursive;
+}
+.txt{
+    text-align: center;
+}
+
+.title2{
+    display: grid;
+    margin: 10px 120px;
+    margin-top: 30px;
+    text-align: end;
+}
+.info{
+display: flex;
+margin-left: 450px;
+padding: 15px 25px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 80vh;
+    grid-template-columns: 45% 45%;
+    margin-top: 30px;
+    row-gap: 12px;
+    column-gap: 10px;
+    width: 90vw;
+    margin: auto;
+    grid-template-areas: 10px;
+    height: 80vh;
+    z-index: 1;
+}
+.logos{
+    height: 65px;
+    width: 80px;
+}
+.imgbg{
+    background-image: url(/img/about.jpg);
+    width: 70%;
+    margin-top: 20px !important;
+    margin: 0px auto;
+    position: inherit;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    width: 70%;
+    margin: 7px auto !important;
+}
+
+.content{
+    width: 70%;
+    margin: 5px auto;
+    display: grid;
+    grid-template-rows: 15% 38% 38%;
+    grid-template-columns: 40% 40%;
+    margin-top: 10px;
+    row-gap: 12px;
+    column-gap: 10px;
+    width: 48vw;
+    grid-template-areas: 10px;
+    margin-right: 40px;
+}
+.abttitle{
+    display: block;
+    grid-column: 1/ span 2;
+    align-items: baseline;
+    font-size: 23px;
+    margin: 20px 20px;
+}
+.abtcontent{
+    display: block;
+    grid-column: 1/ span 2;
+    align-items: start;
+    font-size: 17px;
+    margin: 20px 20px;
+}
+.healthy, .award{
+     margin: 20px 20px;
+     margin-bottom: 40px;
+}
+
+.container1{
+    height: 20vh;
+}
+.row{
+    margin-top: 30px !important;
+}
+.services-head{
+    display: flex;
+    text-align: center;
+    margin:10px auto;
+}
+.services{
+    display: flex;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.services-main{
+    display: flex;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.services-subhd{
+    border: 2px groove black;
+    display: block;
+    margin: auto;
+    height: 40vh;
+    width: 20vw;
+    padding: 20px 25px;
+}
+#bg-healthy{
+    background-color: #a3cfbb;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bg-award{
+    background-color: rgba(13, 110, 253, 0.25);
+}
+.contentser{
+    margin-top: 15px;
+}
+.counters-main{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    background-color:rgba(250, 235, 215, 0.36);
+    justify-content: center;
+}
+.counters{
+    display: flex;
+    margin: auto ;
+    padding: 50px;
+    background-color: aliceblue;
+}
+.counter-subhd{
+    display: block;
+    margin: auto;
+    padding: 20px 25px;
+    color: brown;
+}
+.cout{
+    color: brown;
+    font-size: 55px;
+}
+.menu-subhd{
+    display: flex;
+    margin: auto;
+    padding: 20px 25px;
+    color: brown;
+}
+.menu{
+    display: flex;
+    margin: auto ;
+    padding: 10px;
+    justify-content: center;
+    background-color:rgba(250, 235, 215, 0.36);
+}
+.card-container{
+    padding: 15px 22px;
+    margin: 40px 50px !important;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 30vh;
+    text-align: start;
+}
+.cakeimg{
+    height: 100px;
+}
+.card-text{
+    margin-top: 10px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    position: inherit;
+}
+.team{
+    display: flex;
+    margin: auto ;
+    padding: 50px;
+}
+.team-main{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: aliceblue !important;
+}
+.imgg{
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.teamcontainer{
+    display: flex !important;
+    height: 10px;
+    margin:10px 10px;
+}
+.containerr{
+   margin:10px 10px;
+   height: max-content;
+}
+#abtpgimg{
+    background-image: url(/img/backdropabt.jpg);
+    height: 70vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+}
+#infor{
+    background-color: var(--main--bg);
+    padding: 10px 20px;
+}
+#infor-body{
+    background-color: aliceblue;
+    padding: 20px 40px;
+    text-align: start;
+}
